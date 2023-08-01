@@ -1,0 +1,86 @@
+/* GEN./MISC. */
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins Rounded, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* 'CONTAINS' THE CALCULATOR WITHIN IT */
+
+.container {
+    align-items: center;
+    background: #1C1A27;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+/* THE CALCULATOR ITSELF */
+
+.calculator {
+    background: #3a4452; 
+    border-radius: 10px; /*rounds corners!*/
+    padding: 20px;
+}
+
+.calculator form { 
+    display: flex;
+    flex-direction: column;
+}
+
+/* THE BUTTONS */ 
+
+.calculator form input {
+    /* background: transparent; */
+    background: #4e586b;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3); /* bg btn shadow */
+    transition: box-shadow 0.2s;
+    color: white;
+    cursor: pointer; 
+    font-size: 20px;
+    height: 60px;
+    margin: 5px; /* adds spacing between buttons */
+    outline: 0;
+    transition: box-shadow 0.2s;
+    width: 60px;
+}
+.calculator form input:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* THE CALCULATOR'S INPUT FIELD */
+
+/* the 'display' div (w the input txt) */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+/* txt itself */
+form .display input { 
+    box-shadow: none;
+    flex: 1;
+    font-size: 45px;
+    text-align: right;
+}
+/* ensuring the input field doesn't look like a button
+(AKA have an outline, shadow or border on-click / hover) */
+form .display input:hover, input:focus { 
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+form input.equal {
+    width: 135px;
+}
+
+form input.operator {
+    color: #b986fc;
+}
