@@ -16,8 +16,8 @@
 
 <body>
     <div class="container">
-        <div class="calculator">
-            <form>
+        <div class="calculator" id="calculator">
+            <form id="calculator-form">
                 <div class="display">
                     <!-- displays the calc. result -->
                     <input type="text" name="display">
@@ -58,5 +58,46 @@
             </form>
         </div>
     </div>
+
+    <script>
+        // FOR KEYBOARD INTERACTION
+        document.addEventListener('DOMContentLoaded', function () {
+    const calculatorForm = document.getElementById('calculator-form');
+    const displayInput = calculatorForm.display;
+
+    // Function to update the display with the pressed key
+    function updateDisplay(key) {
+        displayInput.value += key;
+    }
+
+    // Function to handle the key presses
+    function handleKeyPress(event) {
+        const key = event.key;
+        const allowedKeys = /[0-9+\-*/.=]|Backspace|Delete|Enter/;
+
+        if (!allowedKeys.test(key)) return;
+
+        event.preventDefault();
+
+        if (key === 'Enter' || key === '=') {
+            displayInput.value = eval(displayInput.value);
+        } else if (key === 'Backspace' || key === 'Delete') {
+            displayInput.value = displayInput.value.slice(0, -1);
+        } else {
+            updateDisplay(key);
+        }
+    }
+
+    // Add event listeners to the form for keyboard input
+    calculatorForm.addEventListener('keydown', handleKeyPress);
+
+    // Focus the input field when the calculator is clicked, so keyboard input works directly
+    calculatorForm.addEventListener('click', () => {
+        displayInput.focus();
+    });
+});
+
+    </script>
+
 </body>
 </html>
