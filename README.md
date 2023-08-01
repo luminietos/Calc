@@ -16,10 +16,10 @@ You can either start by clicking on the input field (at the top of the calculato
 'DE' - which stand for 'Delete' - on the other hand removes only a single key/number. So where AC will scrap everything, DE will only remove the most recent keystroke.
 
 ### The '/', '*', '-' and '+' buttons
-/ = divide 
-* = multiply 
-- = minus/take
-+ = plus/add
+'/' = divide 
+'*' = multiply 
+'-' = minus/take
+'+' = plus/add
 
 ### The numbers
 When you click on a number, it'll appear on the input field. You can click the same number as many times in a row as you want to.
