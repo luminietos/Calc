@@ -18,7 +18,7 @@ You can either start by clicking on the input field (at the top of the calculato
 
 
 
-(If you choose the latter, you'll notice the buttons will change the appearance of hover to appear as though they're being pressed, to more clearly indicate to you which button you're about to be clicking.)
+If you choose the latter, you'll notice the buttons will change the appearance of hover to appear as though they're being pressed, to more clearly indicate to you which button you're about to be clicking.
 
 
 <img width="224" alt="calculator hover" src="https://github.com/luminietos/Calc/assets/77718358/ac6f9909-d4ee-43cc-89f0-a0b41176d04f">
@@ -32,9 +32,13 @@ You can either start by clicking on the input field (at the top of the calculato
 
 ### The '/', '*', '-', '+', and '=' buttons
 '/' = divide 
+
 '*' = multiply 
+
 '-' = minus/take
+
 '+' = plus/add
+
 '=' = result of calculation
 
 ### The numbers
