@@ -16,9 +16,11 @@ You can either start by clicking on the input field (at the top of the calculato
 <img width="960" alt="calculator input field" src="https://github.com/luminietos/Calc/assets/77718358/a313b10f-0f8a-48eb-91e0-b8752b18d8f7">
 [IMAGE DESCRIPTION: The same view of the calculator as before, but this time the input field displays the calculation: "44 + 6".]
 
+
 (If you choose the latter, you'll notice the buttons will change the appearance of hover to appear as though they're being pressed, to more clearly indicate to you which button you're about to be clicking.)
 
 <img width="224" alt="calculator hover" src="https://github.com/luminietos/Calc/assets/77718358/ac6f9909-d4ee-43cc-89f0-a0b41176d04f">
+
 [IMG DESCRIPTION: Displays four buttons from the calculator: AC, DE, dot, and slash. The fourth button (AKA the divide button) on the right shows the buttons' appearance change on hover.)
 
 ### The 'AC' & 'DE' buttons
