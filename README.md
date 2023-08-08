@@ -18,6 +18,7 @@ You can either start by clicking on the input field (at the top of the calculato
 [IMAGE DESCRIPTION: The same view of the calculator as before, but this time the input field displays the calculation: "44 + 6".]
 
 <br/>
+<br/>
 
 If you choose the latter, you'll notice the buttons will change the appearance of hover to appear as though they're being pressed, to more clearly indicate to you which button you're about to be clicking.
 
@@ -25,6 +26,8 @@ If you choose the latter, you'll notice the buttons will change the appearance o
 <img width="224" alt="calculator hover" src="https://github.com/luminietos/Calc/assets/77718358/ac6f9909-d4ee-43cc-89f0-a0b41176d04f">
 
 [IMAGE DESCRIPTION: Displays four buttons from the calculator: AC, DE, dot, and slash. The fourth button (AKA the divide button) on the right shows the buttons' appearance change on hover.)
+<br/>
+<br/>
 
 ### The 'AC' & 'DE' buttons
 'AC' stands for 'All Clear'.The AC button clears everything you've put into the input field. 
