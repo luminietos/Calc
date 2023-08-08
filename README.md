@@ -6,6 +6,7 @@ This is a basic calculator app created in August 2023.
 It was made using HTML, CSS, and JavaScript. No external libraries were used this time - just plain old code.
 
 <img width="399" alt="mobile view" src="https://github.com/luminietos/Calc/assets/77718358/42c04e91-f169-484c-bf62-075e28c73968">
+
 [IMAGE DESCRIPTION: A calculator application in mobile view.]
 
 ## Step-by-step guide - *"How do I actually use this site?"*
