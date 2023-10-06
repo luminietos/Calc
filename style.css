@@ -43,7 +43,7 @@
     transition: box-shadow 0.2s;
     color: white;
     cursor: pointer; 
-    font-size: 20px;
+    font-size: 28px;
     height: 60px;
     margin: 5px; /* adds spacing between buttons */
     outline: 0;
@@ -52,6 +52,21 @@
 }
 .calculator form input:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* styling for the minus btn (w the .minus-button class) */
+.calculator form input.minus-button {
+    font-size: 35px;
+}
+/* styling for the dot btn (w the .dot-button class) */
+.calculator form input.dot-button {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* the AC and DE buttons */
+#acde { 
+    font-size: 25px;
 }
 
 /* THE CALCULATOR'S INPUT FIELD */

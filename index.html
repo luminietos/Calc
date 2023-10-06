@@ -20,12 +20,12 @@
             <form id="calculator-form">
                 <div class="display">
                     <!-- displays the calc. result -->
-                    <input type="text" name="display">
+                    <input type="text" name="display" readonly> <!-- prevents keyboard from constantly popping up on mobile view -->
                 </div>
                 <div>
-                    <input type="button" value="AC" onclick="display.value = '' " class="operator"> <!--ALL CLEAR-->
-                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator"> <!--DELETE (ONE KEY)-->
-                    <input type="button" value="." onclick="display.value += '.' " class="operator">
+                    <input type="button" id="acde" value="AC" onclick="display.value = '' " class="operator"> <!--ALL CLEAR-->
+                    <input type="button" id="acde" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator"> <!--DELETE (ONE KEY)-->
+                    <input type="button" value="." onclick="display.value += '.' " class="operator dot-button">
                     <input type="button" value="/" onclick="display.value += '/' " class="operator">
                 </div>
                 <div>
@@ -40,7 +40,7 @@
                     <input type="button" value="5" onclick="display.value += '5' "> 
                     <input type="button" value="6" onclick="display.value += '6' ">
 
-                    <input type="button" value="-" onclick="display.value += '-' " class="operator"> <!--SUBTRACT-->
+                    <input type="button" value="-" onclick="display.value += '-' " class="operator minus-button"> <!--SUBTRACT-->
                 </div>
                 <div>
                     <input type="button" value="1" onclick="display.value += '1' "> 
