@@ -1,7 +1,7 @@
 # "Calc" - a basic calculator app
 
 ## Description
-This is a basic calculator app created in August 2023.
+This is a basic two-hour calculator app I created in August 2023.
 
 It was made using HTML, CSS, and JavaScript. No external libraries were used this time - just plain old code.
 
